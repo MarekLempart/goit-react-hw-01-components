@@ -1,5 +1,7 @@
 // App.jsx
 
+import { FriendList } from './friendList/FriendList';
+import friends from './friendList/friends.json';
 import { Profile } from './profile/Profile';
 import user from './profile/user.json';
 import { Statistics } from './statistics/Statistics';
@@ -26,6 +28,8 @@ export const App = () => {
       />
 
       <Statistics title="Upload stats" stats={data} />
+
+      <FriendList friends={friends} />
     </div>
   );
 };
