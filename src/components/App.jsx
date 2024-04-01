@@ -19,6 +19,7 @@ export const App = () => {
         alignItems: 'center',
         padding: 20,
         color: '#010101',
+        backgroundColor: '#eeeeee',
       }}
     >
       <Profile
